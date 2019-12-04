@@ -1,0 +1,33 @@
+<head>
+  <style>
+  @media all and (max-width: 724px) {
+    p{
+      width: 49%;
+    }
+    p#t1{
+      display: inline;
+          width: 49%;
+        float: left;
+    }
+  }
+  @media all and (min-width: 725px) {
+    p{
+        width: 33%;
+      }
+    p#t1{
+      display: inline;
+          width: 33%;
+        float: left;
+    }
+  }
+  @media all and (min-width: 1681px) {
+    p{
+          width: 16%;
+        }
+    p#t1{
+        display: inline;
+            width: 16%;
+          float: left;
+      }
+ </style>
+ </head>
