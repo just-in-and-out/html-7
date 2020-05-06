@@ -1,33 +1,52 @@
 <head>
   <style>
-  @media all and (max-width: 724px) {
-    p{
-      width: 99%;
+    m{}
+    div.head{
+      height: 400px;
+      width: 100%;
+      background-color: #CAECDF;
     }
-    p#t1{
-      display: inline;
-          width: 99%;
-        float: left;
+    div.text{
+      width: 100%;
+      float: left;
+      margin: 1%;
     }
-  }
-  @media all and (min-width: 725px) {
     p{
-        width: 49%;
+      width: 80%;
+    }
+    a{
+    color: white;
+    font-size: 30px;
+    }
+    h2{
+      color: red;
+    }
+    nav{
+      width: 100%;
+      background-color: darkgray;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    body{
+      width: 90%;
+      align-self: center;
+      margin: 5%;
+    }
+    @media all and (min-width: 820px) {
+      div.text{
+        width: 47%;
       }
-    p#t1{
-      display: inline;
-          width: 49%;
-        float: left;
     }
-  }
-  @media all and (min-width: 1681px) {
-    p{
-          width: 33%;
-        }
-    p#t1{
-        display: inline;
-            width: 33%;
-          float: left;
+    @media all and (min-width: 1580px) {
+      div.text{
+        width: 31%;
       }
- </style>
- </head>
+    }
+    @media all and (max-width: 819px) {
+      a{
+        grid-column: 1/5;
+      }
+    }
+
+  </style>
+</head>
