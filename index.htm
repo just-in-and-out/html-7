@@ -1,45 +1,52 @@
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="head">
-      <img src="truemusic-logo.svg" alt="" height="100%" width="100%">
-    </div>
-    <nav>
-      <a href="#">drums</a>
-      <a href="#">gitaar</a>
-      <a href="#">saxofoon</a>
-      <a href="#">trompet</a>
-      <a href="#">contact</a>
-    </nav>
-    <div class="">
-      <div class="text">
-      <h2>nieuws</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc. In iaculis nunc sed augue lacus viverra vitae. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et tortor consequat id. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Mi tempus imperdiet nulla malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Sollicitudin tempor id eu nisl nunc mi. Nunc consequat interdum varius sit. Tellus mauris a diam maecenas sed enim. Feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst quisque sagittis. Nec nam aliquam sem et tortor consequat id.</p>
-    </div>
-    <div class="text">
-      <h2>drums</h2>
-      <img src="drums.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc. In iaculis nunc sed augue lacus viverra vitae. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et tortor consequat id. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Mi tempus imperdiet nulla malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Sollicitudin tempor id eu nisl nunc mi. Nunc consequat interdum varius sit. Tellus mauris a diam maecenas sed enim. Feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst quisque sagittis. Nec nam aliquam sem et tortor consequat id.</p>
-    </div>
-    <div class="text">
-      <h2>gitaar</h2>
-      <img src="gitaar.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc. In iaculis nunc sed augue lacus viverra vitae. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et tortor consequat id. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Mi tempus imperdiet nulla malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Sollicitudin tempor id eu nisl nunc mi. Nunc consequat interdum varius sit. Tellus mauris a diam maecenas sed enim. Feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst quisque sagittis. Nec nam aliquam sem et tortor consequat id.</p>
-    </div>
-    <div class="text">
-      <h2>saxofoon</h2>
-      <img src="saxofoon.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc. In iaculis nunc sed augue lacus viverra vitae. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et tortor consequat id. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Mi tempus imperdiet nulla malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Sollicitudin tempor id eu nisl nunc mi. Nunc consequat interdum varius sit. Tellus mauris a diam maecenas sed enim. Feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst quisque sagittis. Nec nam aliquam sem et tortor consequat id.</p>
-    </div>
-    <div class="text">
-      <h2>trompet</h2>
-      <img src="trompet.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc. In iaculis nunc sed augue lacus viverra vitae. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et tortor consequat id. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Mi tempus imperdiet nulla malesuada. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Sollicitudin tempor id eu nisl nunc mi. Nunc consequat interdum varius sit. Tellus mauris a diam maecenas sed enim. Feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst quisque sagittis. Nec nam aliquam sem et tortor consequat id.</p>
-    </div>
-    </div>
-  </body>
-</html>
+<head>
+  <style>
+    m{}
+    div.head{
+      height: 400px;
+      width: 100%;
+      background-color: #CAECDF;
+    }
+    div.text{
+      width: 100%;
+      float: left;
+      margin: 1%;
+    }
+    p{
+      width: 80%;
+    }
+    a{
+    color: white;
+    font-size: 30px;
+    }
+    h2{
+      color: red;
+    }
+    nav{
+      width: 100%;
+      background-color: darkgray;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    body{
+      width: 90%;
+      align-self: center;
+      margin: 5%;
+    }
+    @media all and (min-width: 820px) {
+      div.text{
+        width: 47%;
+      }
+    }
+    @media all and (min-width: 1580px) {
+      div.text{
+        width: 31%;
+      }
+    }
+    @media all and (max-width: 819px) {
+      a{
+        grid-column: 1/5;
+      }
+    }
+
+  </style>
+</head>
